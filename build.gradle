@@ -9,6 +9,8 @@ targetCompatibility = 1.8
 group 'com.metanonia'
 version '1.0-SNAPSHOT'
 
+mainClassName = 'com.metanonia.wsclient.Client'
+
 jar {
     manifest {
         attributes 'Version': 1.0, 'Main-Class': 'com.metanonia.wsclient.Client'
